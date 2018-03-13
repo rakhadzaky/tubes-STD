@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1520872752 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.cpp
+	"buku.h"
+
+1520872710 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.h
+	<iostream>
+	<string>
+
+1520907302 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\main.cpp
+	<iostream>
+	<conio.h>
+	"buku.h"
+	"pembeli.h"
+	"info.h"
+
+1520906196 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.h
+	<iostream>
+	<string>
+
+1520904686 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.h
+	<iostream>
+	<string>
+	"buku.h"
+	"pembeli.h"
+
+1520907348 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.cpp
+	"pembeli.h"
+
+1520907333 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.cpp
+	"info.h"
+	"pembeli.h"
+	"buku.h"
+
