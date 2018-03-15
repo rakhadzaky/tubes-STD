@@ -34,8 +34,10 @@
 		</Compiler>
 		<Unit filename="buku.cpp" />
 		<Unit filename="buku.h" />
+		<Unit filename="info.cpp" />
 		<Unit filename="info.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="pembeli.cpp" />
 		<Unit filename="pembeli.h" />
 		<Extensions>
 			<code_completion />
