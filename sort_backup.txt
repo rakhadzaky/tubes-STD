@@ -1,0 +1,71 @@
+adr_buku P = first(L);
+    adr_buku Q, maks, tamp1, tamp2;
+    while (next(P) != NULL){
+        Q = P;
+        maks = NULL;
+        while (Q != NULL){
+            if (maks == NULL){
+                maks = Q;
+            }else{
+                if (info(maks) >= info(Q)){
+                    maks = Q;
+                }
+            }
+            Q = next(Q);
+        }
+
+        if (info(maks) <= info(P)){
+            if (P == first(L)){
+                if (maks = last(L)){
+                    //first maks dengan last
+                    next(prev(maks)) = P;
+                    prev(P) = prev(maks);
+                    next(maks) = next(P);
+                    prev(next(P)) = maks;
+                    next(P) = NULL;
+                    prev(maks) = NULL;
+                    first(L) = maks;
+                    last(L) = P;
+                }else{
+                    cout<<"first maks dengan not last";
+                    next(prev(maks)) = P;
+                    prev(next(maks)) = P;
+                    first(L) = next(first(L));
+                    prev(next(P)) = maks;
+                    next(P) = next(maks);
+                    next(maks) = first(L);
+                    first(L) = maks;
+                    prev(P) = prev(maks);
+                    prev(maks) = NULL;
+                }
+            }else{
+                if( maks ==  last(L)){
+                    cout<<"maks dengan last";
+                    next(prev(P)) = maks;
+                    next(prev(maks)) = P;
+                    prev(next(P)) = maks;
+                    tamp1 = next(P);
+                    tamp2 = prev(P);
+                    next(P) = NULL;
+                    prev(P) = prev(maks);
+                    next(maks) = tamp2;
+                    prev(maks) = tamp1;
+                }else{
+                    cout<<"maks dengan not last";
+                    next(prev(P)) = maks;
+                    prev(next(maks)) = P;
+                    next(prev(maks)) = P;
+                    prev(next(P)) = maks;
+                    tamp1 = next(P);
+                    tamp2 = prev(P);
+                    next(P) = next(maks);
+                    prev(P) = prev(maks);
+                    next(maks) = tamp2;
+                    prev(maks) = tamp1;
+                }
+            }
+            P = maks;
+        }
+        P = next(P);
+    }
+    print_book(L);

@@ -1,7 +1,8 @@
 #ifndef BUKU_H_INCLUDED
 #define BUKU_H_INCLUDED
 #include <iostream>
-#include <string>
+#include <string.h>
+#include <stdio.h>
 
 #define info(P) (P)->info
 #define next(P) (P)->next
@@ -29,9 +30,16 @@ struct List_buku{
 void insert_book(List_buku &L, adr_buku P);
 void print_book(List_buku L);
 void createList_book(List_buku &L);
+void Search_buku(List_buku L, adr_buku &P, infotype_buku x);
+void SortBuku(List_buku X, List_buku K);
+void deleteBuku(List_buku &L, adr_buku x);
+void deleteFirst_book(List_buku &L);
+void deleteLast_book(List_buku &L);
+void deleteAfter_book(List_buku &L, adr_buku x);
 
 
 //pendeklarasian function
 adr_buku allo_book(infotype_buku x);
+bool Is_Null (List_buku L);
 
 #endif // BUKU_H_INCLUDED

@@ -1,7 +1,9 @@
 #ifndef PEMBELI_H_INCLUDED
 #define PEMBELI_H_INCLUDED
 #include <iostream>
-#include <string>
+#include <string.h>
+#include <stdio.h>
+
 
 #define info(P) (P)->info
 #define next(P) (P)->next
@@ -25,6 +27,10 @@ struct List_pembeli{
 void createList_pembeli(List_pembeli &L);
 void insert_pembeli(List_pembeli &L, adr_pembeli P);
 void print_pembeli (List_pembeli L);
+void Search_pembeli(List_pembeli L, adr_pembeli &P, infotype_pembeli x);
+void DeleteFirst_pembeli(List_pembeli &L);
+void DeleteLast_pembeli(List_pembeli &L);
+void DeleteAfter_pembeli(List_pembeli &L, infotype_pembeli x);
 
 //Pendeklarasian function
 adr_pembeli allo_pembeli(infotype_pembeli x);

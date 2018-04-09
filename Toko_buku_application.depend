@@ -1,32 +1,37 @@
 # depslib dependency file v1.0
-1520872752 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.cpp
+1523282215 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.cpp
 	"buku.h"
 
-1520872710 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.h
+1523282274 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\buku.h
 	<iostream>
-	<string>
+	<string.h>
+	<stdio.h>
 
-1520907302 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\main.cpp
+1523282282 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\main.cpp
 	<iostream>
 	<conio.h>
 	"buku.h"
 	"pembeli.h"
 	"info.h"
 
-1520906196 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.h
+1523246802 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.h
 	<iostream>
-	<string>
+	<string.h>
+	<stdio.h>
 
-1520904686 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.h
+1522730089 c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.h
 	<iostream>
-	<string>
+	<string.h>
+	<stdio.h>
 	"buku.h"
 	"pembeli.h"
+	<conio.h>
 
-1520907348 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.cpp
+1523246793 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\pembeli.cpp
 	"pembeli.h"
+	"info.h"
 
-1520907389 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.cpp
+1523246124 source:c:\users\asus\documents\matkul\semester 2\struktur data\proyek\tugas\tubes\toko_buku_application\info.cpp
 	"info.h"
 	"pembeli.h"
 	"buku.h"

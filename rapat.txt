@@ -1,9 +1,9 @@
 daftar procedure :
-	1. insert_book (insert_first)
-	2. insert_buyer (insert_first)
-	3. insert_info (insert_first)
+	1. insert_book (insert_first) V
+	2. insert_buyer (insert_first) V
+	3. insert_info (insert_first) V
 	4. delete_info (delete_first, delete_after, delete_last)
-	5. print_info
+	5. print_info V
 	6. print_info_khusus_buku
 	7. print_most_book_with_pembeli
 	8. print_less_book
